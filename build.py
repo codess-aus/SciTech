@@ -93,7 +93,7 @@ def home(chapters):
       <div class="container">
         <p class="eyebrow">An illustrated guide to AI</p>
         <h1>Curious about <em>AI?</em></h1>
-        <p>Meet the people, ideas, and questions behind artificial intelligence. Explore one image and one idea at a time.</p>
+        <p>Explore AI through friendly stories, everyday examples, and activities you can try. Meet new ideas one chapter at a time.</p>
         <a class="button-link" href="#chapters">Explore the chapters <span aria-hidden="true">↗</span></a>
       </div>
     </section>
@@ -108,12 +108,63 @@ def home(chapters):
 """ + footer()
 
 
+def story_section(story):
+  # Render a short character story when the chapter includes one.
+  if not story:
+      return ""
+  paragraphs = "\n".join(f"          <p>{text(paragraph)}</p>" for paragraph in story.get("paragraphs", []))
+  return f"""        <section class="story-card">
+        <h2>{text(story.get('title', 'A story'))}</h2>
+{paragraphs}
+      </section>"""
+
+
+def example_section(example):
+  # Show a familiar real-life example when one is available.
+  if not example:
+      return ""
+  return f"""        <section class="example-card">
+        <h2>{text(example.get('title', 'Everyday example'))}</h2>
+        <p>{text(example.get('body', ''))}</p>
+      </section>"""
+
+
+def fun_fact_aside(fun_fact):
+  # Highlight one optional, kid-friendly fact in a semantic aside.
+  if not fun_fact:
+      return ""
+  return f"""        <aside class="fun-fact">
+        <h2>Fun fact</h2>
+        <p>{text(fun_fact)}</p>
+      </aside>"""
+
+
+def try_it_section(try_it):
+  # Turn the optional activity steps into an ordered list.
+  if not try_it:
+      return ""
+  steps = "\n".join(f"          <li>{text(step)}</li>" for step in try_it.get("steps", []))
+  return f"""        <section class="try-it-card">
+        <h2>{text(try_it.get('title', 'Try it'))}</h2>
+        <ol>
+{steps}
+        </ol>
+      </section>"""
+
+
 def chapter_page(chapters, index):
     chapter = chapters[index]
     sections = "\n".join(
         f"        <section><h2>{text(title)}</h2><p>{text(body)}</p></section>"
         for title, body in chapter["sections"]
     )
+    # Keep optional enrichment blocks between the chapter text and its question.
+    extras = "\n".join(filter(None, (
+        story_section(chapter.get("story")),
+        example_section(chapter.get("example")),
+        fun_fact_aside(chapter.get("fun_fact")),
+        try_it_section(chapter.get("try_it")),
+    )))
     previous = chapters[index - 1] if index else None
     following = chapters[index + 1] if index + 1 < len(chapters) else None
     back_href = f"{previous['slug']}.html" if previous else "index.html"
@@ -128,6 +179,7 @@ def chapter_page(chapters, index):
         <h1>{text(chapter['title'])}</h1>
         <p class="lead">{text(chapter['intro'])}</p>
 {sections}
+{extras}
         <aside class="detail-note"><h2>Think about it</h2><p>{text(chapter['question'])}</p></aside>
       </div>
     </article>
