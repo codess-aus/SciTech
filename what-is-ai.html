@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get a friendly introduction to computers that learn patterns and make predictions.">
+  <title>What is AI? | SciTech</title>
+  <script>
+    try {
+      const saved = localStorage.getItem("scitech-theme");
+      document.documentElement.dataset.theme = saved === "light" || saved === "dark"
+        ? saved : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    } catch {
+      document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="SciTech home">✳ SciTech</a>
+      <nav aria-label="Main navigation"><a href="index.html#chapters">All chapters</a></nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">◐</span> <span class="theme-label">Switch to dark mode</span>
+      </button>
+    </div>
+  </header>
+  <main id="main">
+    <article>
+      <figure class="chapter-hero"><img src="docs/assets/what-is-ai.png" alt="Illustration introducing the question what is AI" width="1672" height="941" loading="eager" fetchpriority="high"></figure>
+      <div class="chapter-content">
+        <p class="eyebrow">Chapter 03 / 17</p>
+        <h1>What is AI?</h1>
+        <p class="lead">Artificial intelligence is a name for computer systems that can perform tasks we associate with human thinking, such as recognising patterns or generating text.</p>
+        <section><h2>Patterns, not magic</h2><p>An AI system can learn from examples and use those patterns to predict an answer to a new question. It does not understand the world in exactly the way a person does.</p></section>
+        <section><h2>Many kinds of tasks</h2><p>Some systems sort photos, some recommend songs, and some help write or draw. The task and the training data shape what each system can do.</p></section>
+        <aside class="detail-note"><h2>Think about it</h2><p>What task would you want a computer to help you with?</p></aside>
+      </div>
+    </article>
+    <nav class="chapter-nav container" aria-label="Chapter navigation">
+      <a href="ai-talk-slides-overview-grid.html"><span>Previous</span><strong>Our AI journey</strong></a>
+      <a href="different-types-of-ai.html"><span>Next</span><strong>Different types of AI</strong></a>
+    </nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>✳ SciTech</span><span>Curiosity makes a difference.</span><a href="#main">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>

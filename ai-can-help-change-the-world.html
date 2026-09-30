@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Imagine useful applications while considering their limits and real-world impact.">
+  <title>AI can help change the world | SciTech</title>
+  <script>
+    try {
+      const saved = localStorage.getItem("scitech-theme");
+      document.documentElement.dataset.theme = saved === "light" || saved === "dark"
+        ? saved : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    } catch {
+      document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="SciTech home">✳ SciTech</a>
+      <nav aria-label="Main navigation"><a href="index.html#chapters">All chapters</a></nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">◐</span> <span class="theme-label">Switch to dark mode</span>
+      </button>
+    </div>
+  </header>
+  <main id="main">
+    <article>
+      <figure class="chapter-hero"><img src="docs/assets/ai-can-help-change-the-world.png" alt="Illustration about AI helping change the world" width="1672" height="941" loading="eager" fetchpriority="high"></figure>
+      <div class="chapter-content">
+        <p class="eyebrow">Chapter 16 / 17</p>
+        <h1>AI can help change the world</h1>
+        <p class="lead">AI can help people explore big challenges, but making a positive difference takes care, evidence, and teamwork.</p>
+        <section><h2>Find useful patterns</h2><p>Researchers may use AI to study large sets of observations, such as changes in the environment. The tool can help them find questions worth investigating.</p></section>
+        <section><h2>Measure what matters</h2><p>A promising idea should be tested with the people it affects. Consider its benefits, mistakes, resource use, and who might be left out.</p></section>
+        <aside class="detail-note"><h2>Think about it</h2><p>What problem in your community would you want a team to tackle?</p></aside>
+      </div>
+    </article>
+    <nav class="chapter-nav container" aria-label="Chapter navigation">
+      <a href="github-copilot-development-journey.html"><span>Previous</span><strong>The development journey</strong></a>
+      <a href="your-ideas-brighter-future.html"><span>Next</span><strong>Your ideas, a brighter future</strong></a>
+    </nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>✳ SciTech</span><span>Curiosity makes a difference.</span><a href="#main">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Follow the path from examples and training to a prediction you can check.">
+  <title>How does AI actually work? | SciTech</title>
+  <script>
+    try {
+      const saved = localStorage.getItem("scitech-theme");
+      document.documentElement.dataset.theme = saved === "light" || saved === "dark"
+        ? saved : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    } catch {
+      document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="SciTech home">✳ SciTech</a>
+      <nav aria-label="Main navigation"><a href="index.html#chapters">All chapters</a></nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">◐</span> <span class="theme-label">Switch to dark mode</span>
+      </button>
+    </div>
+  </header>
+  <main id="main">
+    <article>
+      <figure class="chapter-hero"><img src="docs/assets/how-does-ai-actually-work.png" alt="Illustration asking how AI actually works" width="1672" height="941" loading="eager" fetchpriority="high"></figure>
+      <div class="chapter-content">
+        <p class="eyebrow">Chapter 06 / 17</p>
+        <h1>How does AI actually work?</h1>
+        <p class="lead">Many AI systems learn patterns from examples during training, then use what they learned to make predictions about new input.</p>
+        <section><h2>Learning from examples</h2><p>Imagine showing a system many labelled pictures of cats and dogs. It adjusts its internal settings to get better at guessing which label fits each picture.</p></section>
+        <section><h2>Testing the result</h2><p>A new picture tests whether the learned pattern works beyond the training examples. People need to check performance on different examples, including ones that are difficult or unusual.</p></section>
+        <aside class="detail-note"><h2>Think about it</h2><p>What might happen if the training pictures showed only one kind of dog?</p></aside>
+      </div>
+    </article>
+    <nav class="chapter-nav container" aria-label="Chapter navigation">
+      <a href="where-do-we-see-ai-today.html"><span>Previous</span><strong>Where do we see AI today?</strong></a>
+      <a href="ai-can-be-very-wrong-flamingo.html"><span>Next</span><strong>AI can be very wrong</strong></a>
+    </nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>✳ SciTech</span><span>Curiosity makes a difference.</span><a href="#main">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>

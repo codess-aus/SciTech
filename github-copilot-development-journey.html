@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Follow an idea through drafting, reviewing, testing, and improving with Copilot.">
+  <title>The development journey | SciTech</title>
+  <script>
+    try {
+      const saved = localStorage.getItem("scitech-theme");
+      document.documentElement.dataset.theme = saved === "light" || saved === "dark"
+        ? saved : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    } catch {
+      document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="SciTech home">✳ SciTech</a>
+      <nav aria-label="Main navigation"><a href="index.html#chapters">All chapters</a></nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">◐</span> <span class="theme-label">Switch to dark mode</span>
+      </button>
+    </div>
+  </header>
+  <main id="main">
+    <article>
+      <figure class="chapter-hero"><img src="docs/assets/github-copilot-development-journey.png" alt="GitHub Copilot development journey illustration" width="1670" height="941" loading="eager" fetchpriority="high"></figure>
+      <div class="chapter-content">
+        <p class="eyebrow">Chapter 15 / 17</p>
+        <h1>The development journey</h1>
+        <p class="lead">Building software is a journey of trying ideas and checking results. AI suggestions are one step, not the finish line.</p>
+        <section><h2>From idea to draft</h2><p>A developer breaks a goal into smaller steps, writes or requests a first version, and considers how it fits with existing code.</p></section>
+        <section><h2>Keep improving</h2><p>Tests, reviews, and feedback reveal what needs to change. A good journey includes fixing mistakes and learning from users.</p></section>
+        <aside class="detail-note"><h2>Think about it</h2><p>What would you test first if you built a new app feature?</p></aside>
+      </div>
+    </article>
+    <nav class="chapter-nav container" aria-label="Chapter navigation">
+      <a href="github-copilot-ai-workflow.html"><span>Previous</span><strong>An AI-assisted coding workflow</strong></a>
+      <a href="ai-can-help-change-the-world.html"><span>Next</span><strong>AI can help change the world</strong></a>
+    </nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>✳ SciTech</span><span>Curiosity makes a difference.</span><a href="#main">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>

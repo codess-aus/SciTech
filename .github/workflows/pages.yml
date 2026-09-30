@@ -42,10 +42,10 @@ jobs:
       - name: Prepare site artifact
         run: |
           site="$RUNNER_TEMP/site"
-          mkdir -p "$site/images"
+          mkdir -p "$site/docs/assets"
           # Publish only the files used by the website, not repository or development files.
-          cp index.html stars.html ocean.html forest.html styles.css theme.js "$site/"
-          cp images/*.svg "$site/images/"
+          cp ./*.html styles.css theme.js "$site/"
+          cp docs/assets/*.png "$site/docs/assets/"
           touch "$site/.nojekyll"
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v5.0.0
