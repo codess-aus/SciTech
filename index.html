@@ -3,8 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Three illustrated chapters exploring the night sky, the ocean, and the forest.">
-  <title>SciTech — A field guide to wonder</title>
+  <meta name="description" content="Seventeen illustrated chapters about AI, people, and the future.">
+  <title>Explore AI | SciTech</title>
+  <script>
+    try {
+      const saved = localStorage.getItem("scitech-theme");
+      document.documentElement.dataset.theme = saved === "light" || saved === "dark"
+        ? saved : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    } catch {
+      document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+  </script>
   <link rel="stylesheet" href="styles.css">
   <script src="theme.js" defer></script>
 </head>
@@ -12,53 +21,218 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="index.html" aria-label="SciTech home"><span class="brand-mark" aria-hidden="true">✳</span> SciTech<span class="brand-dot">.</span></a>
-      <nav aria-label="Main navigation"><a href="#chapters">Explore chapters</a></nav>
-      <button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden><span class="theme-icon" aria-hidden="true">◐</span> <span class="theme-label">Dark mode</span></button>
+      <a class="brand" href="index.html" aria-label="SciTech home">✳ SciTech</a>
+      <nav aria-label="Main navigation"><a href="index.html#chapters">All chapters</a></nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">◐</span> <span class="theme-label">Switch to dark mode</span>
+      </button>
     </div>
   </header>
-
   <main id="main">
-    <section class="home-hero" aria-labelledby="hero-title">
-      <img src="images/stars.svg" alt="Illustrated constellation glowing over a dark mountain horizon" width="1200" height="650">
-      <div class="home-hero-content">
-        <p class="eyebrow">An illustrated field guide · Volume 01</p>
-        <h1 id="hero-title">Look closer.<br><em>Wonder more.</em></h1>
-        <p>Three visual journeys through the patterns that connect our world, from the stars above to the life beneath our feet.</p>
+    <section class="home-hero">
+      <div class="container">
+        <p class="eyebrow">An illustrated guide to AI</p>
+        <h1>Curious about <em>AI?</em></h1>
+        <p>Meet the people, ideas, and questions behind artificial intelligence. Explore one image and one idea at a time.</p>
         <a class="button-link" href="#chapters">Explore the chapters <span aria-hidden="true">↗</span></a>
       </div>
-      <span class="hero-index" aria-hidden="true">01 / 03</span>
     </section>
-
-    <section class="intro container" aria-labelledby="intro-title">
-      <div><p class="eyebrow">A different perspective</p><h2 id="intro-title">The world has<br>stories to tell.</h2></div>
-      <p>Follow the illustrations and discover a little of the science behind each scene. Every chapter starts with an image, then takes a closer look at what it shows.</p>
-    </section>
-
     <section class="chapters container" id="chapters" aria-labelledby="chapters-title">
-      <div class="section-heading"><div><p class="eyebrow">Start exploring</p><h2 id="chapters-title">The chapters</h2></div><span>01 — 03</span></div>
+      <p class="eyebrow">Choose where to begin</p>
+      <h2 id="chapters-title">The chapters</h2>
       <div class="chapter-grid">
         <article class="chapter-card">
-          <a href="stars.html" aria-labelledby="stars-card-title">
-            <div class="card-image"><img src="images/stars.svg" alt="A constellation above a mountain horizon" width="1200" height="650" loading="lazy"></div>
-            <div class="card-body"><span class="chapter-number">Chapter 01 / The sky</span><h3 id="stars-card-title">A map in the stars</h3><p>Why familiar shapes appear in an ever-changing night sky.</p><span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span></div>
+          <a href="hi-im-michelle-meet-the-ai-expert.html">
+            <div class="card-image"><img src="docs/assets/hi-im-michelle-meet-the-ai-expert.png" alt="Introduction to Michelle, an AI expert" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 01</span>
+              <h3>Meet Michelle, the AI expert</h3>
+              <p>Meet someone who works with AI and discover the questions that guide her work.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
           </a>
         </article>
         <article class="chapter-card">
-          <a href="ocean.html" aria-labelledby="ocean-card-title">
-            <div class="card-image"><img src="images/ocean.svg" alt="Sunbeams reaching through blue water toward fish" width="1200" height="650" loading="lazy"></div>
-            <div class="card-body"><span class="chapter-number">Chapter 02 / The ocean</span><h3 id="ocean-card-title">Below the surface</h3><p>Follow the sunlight as it fades into the deep blue.</p><span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span></div>
+          <a href="ai-talk-slides-overview-grid.html">
+            <div class="card-image"><img src="docs/assets/ai-talk-slides-overview-grid.png" alt="Overview grid of topics in an AI talk" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 02</span>
+              <h3>Our AI journey</h3>
+              <p>Preview the big questions we will explore, from how AI works to who makes the decisions.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
           </a>
         </article>
         <article class="chapter-card">
-          <a href="forest.html" aria-labelledby="forest-card-title">
-            <div class="card-image"><img src="images/forest.svg" alt="Layers of green trees framing a sunlit forest path" width="1200" height="650" loading="lazy"></div>
-            <div class="card-body"><span class="chapter-number">Chapter 03 / The forest</span><h3 id="forest-card-title">Life between the trees</h3><p>What a sunlit woodland reveals about a living ecosystem.</p><span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span></div>
+          <a href="what-is-ai.html">
+            <div class="card-image"><img src="docs/assets/what-is-ai.png" alt="Illustration introducing the question what is AI" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 03</span>
+              <h3>What is AI?</h3>
+              <p>Get a friendly introduction to computers that learn patterns and make predictions.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="different-types-of-ai.html">
+            <div class="card-image"><img src="docs/assets/different-types-of-ai.png" alt="Illustration comparing different types of AI" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 04</span>
+              <h3>Different types of AI</h3>
+              <p>Compare AI tools that recognise, recommend, predict, or create.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="where-do-we-see-ai-today.html">
+            <div class="card-image"><img src="docs/assets/where-do-we-see-ai-today.png" alt="Illustration about where people encounter AI today" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 05</span>
+              <h3>Where do we see AI today?</h3>
+              <p>Spot familiar uses of AI in everyday tools and services.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="how-does-ai-actually-work.html">
+            <div class="card-image"><img src="docs/assets/how-does-ai-actually-work.png" alt="Illustration asking how AI actually works" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 06</span>
+              <h3>How does AI actually work?</h3>
+              <p>Follow the path from examples and training to a prediction you can check.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="ai-can-be-very-wrong-flamingo.html">
+            <div class="card-image"><img src="docs/assets/ai-can-be-very-wrong-flamingo.png" alt="Flamingo illustration about AI making mistakes" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 07</span>
+              <h3>AI can be very wrong</h3>
+              <p>Use a flamingo example to explore why confident AI answers still need checking.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="who-is-in-charge-humans-decide.html">
+            <div class="card-image"><img src="docs/assets/who-is-in-charge-humans-decide.png" alt="Illustration about humans staying in charge of AI decisions" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 08</span>
+              <h3>Who is in charge?</h3>
+              <p>Explore why people, not AI tools, should make important choices.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="every-door-robot-permissions.html">
+            <div class="card-image"><img src="docs/assets/every-door-robot-permissions.png" alt="Robot and doors illustrating permissions and boundaries" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 09</span>
+              <h3>Should the robot open every door?</h3>
+              <p>Think about permissions, boundaries, and how to keep a helpful robot safe.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="school-ai-robot-what-should-it-do.html">
+            <div class="card-image"><img src="docs/assets/school-ai-robot-what-should-it-do.png" alt="School AI robot prompting a question about what it should do" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 10</span>
+              <h3>A school AI robot</h3>
+              <p>Imagine a school robot and decide what helpful, fair behaviour would look like.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="what-does-an-ai-expert-do.html">
+            <div class="card-image"><img src="docs/assets/what-does-an-ai-expert-do.png" alt="Illustration about the work of an AI expert" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 11</span>
+              <h3>What does an AI expert do?</h3>
+              <p>Discover the teamwork, testing, and problem solving behind an AI project.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="ai-expert-job-opportunities.html">
+            <div class="card-image"><img src="docs/assets/ai-expert-job-opportunities.png" alt="Illustration exploring job opportunities for AI experts" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 12</span>
+              <h3>Jobs in AI</h3>
+              <p>See how different interests can lead to roles on an AI team.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="how-could-you-become-an-ai-expert.html">
+            <div class="card-image"><img src="docs/assets/how-could-you-become-an-ai-expert.png" alt="Illustration asking how to become an AI expert" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 13</span>
+              <h3>How could you become an AI expert?</h3>
+              <p>Find small, practical steps for learning about AI and using it responsibly.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="github-copilot-ai-workflow.html">
+            <div class="card-image"><img src="docs/assets/github-copilot-ai-workflow.png" alt="GitHub Copilot AI workflow illustration" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 14</span>
+              <h3>An AI-assisted coding workflow</h3>
+              <p>Explore how a developer can use GitHub Copilot while staying in control.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="github-copilot-development-journey.html">
+            <div class="card-image"><img src="docs/assets/github-copilot-development-journey.png" alt="GitHub Copilot development journey illustration" width="1670" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 15</span>
+              <h3>The development journey</h3>
+              <p>Follow an idea through drafting, reviewing, testing, and improving with Copilot.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="ai-can-help-change-the-world.html">
+            <div class="card-image"><img src="docs/assets/ai-can-help-change-the-world.png" alt="Illustration about AI helping change the world" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 16</span>
+              <h3>AI can help change the world</h3>
+              <p>Imagine useful applications while considering their limits and real-world impact.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="your-ideas-brighter-future.html">
+            <div class="card-image"><img src="docs/assets/your-ideas-brighter-future.png" alt="Illustration inviting your ideas for a brighter future" width="1672" height="941" loading="lazy" decoding="async"></div>
+            <div class="card-body">
+              <span class="chapter-number">Chapter 17</span>
+              <h3>Your ideas, a brighter future</h3>
+              <p>Finish the journey by imagining a thoughtful AI idea of your own.</p>
+              <span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span>
+            </div>
           </a>
         </article>
       </div>
     </section>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><span>✳ SciTech <span class="brand-dot">.</span></span><span>Curiosity looks good on you.</span><a href="#main">Back to top ↑</a></div></footer>
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>✳ SciTech</span><span>Curiosity makes a difference.</span><a href="#main">Back to top ↑</a></div>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "hi-im-michelle-meet-the-ai-expert",
+    "image": "hi-im-michelle-meet-the-ai-expert.png",
+    "title": "Meet Michelle, the AI expert",
+    "description": "Meet someone who works with AI and discover the questions that guide her work.",
+    "alt": "Introduction to Michelle, an AI expert",
+    "intro": "Hi, I'm Michelle! AI experts are people who ask how technology can help others, and how to use it responsibly.",
+    "sections": [
+      ["A human behind the technology", "AI does not invent its own goals. People like Michelle work with teams to choose useful problems, study data, and check whether a system actually helps."],
+      ["Questions worth asking", "Who will use this tool? What could go wrong? Listening to the people affected is just as important as learning to code."]
+    ],
+    "question": "If you could ask an AI expert one question, what would it be?"
+  },
+  {
+    "slug": "ai-talk-slides-overview-grid",
+    "image": "ai-talk-slides-overview-grid.png",
+    "title": "Our AI journey",
+    "description": "Preview the big questions we will explore, from how AI works to who makes the decisions.",
+    "alt": "Overview grid of topics in an AI talk",
+    "intro": "This is our map for exploring AI: what it is, where it appears, what it can get wrong, and what people can do with it.",
+    "sections": [
+      ["Start with curiosity", "You do not need to know how to program to ask good questions about AI. Notice what a tool does and what information it might need."],
+      ["Keep people in the picture", "As we travel through the chapters, look for the people who build, use, and are affected by each system."]
+    ],
+    "question": "Which topic on this journey are you most curious about?"
+  },
+  {
+    "slug": "what-is-ai",
+    "image": "what-is-ai.png",
+    "title": "What is AI?",
+    "description": "Get a friendly introduction to computers that learn patterns and make predictions.",
+    "alt": "Illustration introducing the question what is AI",
+    "intro": "Artificial intelligence is a name for computer systems that can perform tasks we associate with human thinking, such as recognising patterns or generating text.",
+    "sections": [
+      ["Patterns, not magic", "An AI system can learn from examples and use those patterns to predict an answer to a new question. It does not understand the world in exactly the way a person does."],
+      ["Many kinds of tasks", "Some systems sort photos, some recommend songs, and some help write or draw. The task and the training data shape what each system can do."]
+    ],
+    "question": "What task would you want a computer to help you with?"
+  },
+  {
+    "slug": "different-types-of-ai",
+    "image": "different-types-of-ai.png",
+    "title": "Different types of AI",
+    "description": "Compare AI tools that recognise, recommend, predict, or create.",
+    "alt": "Illustration comparing different types of AI",
+    "intro": "Not every AI system does the same job. Some classify what they see, while others suggest what might come next.",
+    "sections": [
+      ["Recognise and predict", "A classifier might identify an animal in a photo. A prediction system might estimate tomorrow's demand for buses using past journeys."],
+      ["Create and suggest", "Generative AI can produce new text, pictures, or code based on learned patterns. Recommendation tools suggest items you might enjoy, but you can still choose for yourself."]
+    ],
+    "question": "Is a music recommendation doing the same job as an image generator?"
+  },
+  {
+    "slug": "where-do-we-see-ai-today",
+    "image": "where-do-we-see-ai-today.png",
+    "title": "Where do we see AI today?",
+    "description": "Spot familiar uses of AI in everyday tools and services.",
+    "alt": "Illustration about where people encounter AI today",
+    "intro": "AI can appear in places you already know, from captions on videos to suggestions in a search box.",
+    "sections": [
+      ["Everyday helpers", "Speech-to-text can turn spoken words into captions. Navigation apps can use predictions to suggest a route when traffic changes."],
+      ["Look more closely", "Not every clever feature is AI, and an AI feature is not always the best option. Ask what information it uses and whether you can correct it."]
+    ],
+    "question": "Where have you noticed a computer making a suggestion today?"
+  },
+  {
+    "slug": "how-does-ai-actually-work",
+    "image": "how-does-ai-actually-work.png",
+    "title": "How does AI actually work?",
+    "description": "Follow the path from examples and training to a prediction you can check.",
+    "alt": "Illustration asking how AI actually works",
+    "intro": "Many AI systems learn patterns from examples during training, then use what they learned to make predictions about new input.",
+    "sections": [
+      ["Learning from examples", "Imagine showing a system many labelled pictures of cats and dogs. It adjusts its internal settings to get better at guessing which label fits each picture."],
+      ["Testing the result", "A new picture tests whether the learned pattern works beyond the training examples. People need to check performance on different examples, including ones that are difficult or unusual."]
+    ],
+    "question": "What might happen if the training pictures showed only one kind of dog?"
+  },
+  {
+    "slug": "ai-can-be-very-wrong-flamingo",
+    "image": "ai-can-be-very-wrong-flamingo.png",
+    "title": "AI can be very wrong",
+    "description": "Use a flamingo example to explore why confident AI answers still need checking.",
+    "alt": "Flamingo illustration about AI making mistakes",
+    "intro": "An AI answer can sound convincing and still be mistaken. A flamingo is a useful reminder to stop and check the details.",
+    "sections": [
+      ["Confident is not correct", "A tool might misidentify an animal or invent a fact about it. Its words may be fluent even when its evidence is missing."],
+      ["Check before sharing", "Compare important claims with reliable sources and ask a person who knows the subject. If an answer seems surprising, that is a good reason to investigate."]
+    ],
+    "question": "How would you check a surprising claim about flamingos?"
+  },
+  {
+    "slug": "who-is-in-charge-humans-decide",
+    "image": "who-is-in-charge-humans-decide.png",
+    "title": "Who is in charge?",
+    "description": "Explore why people, not AI tools, should make important choices.",
+    "alt": "Illustration about humans staying in charge of AI decisions",
+    "intro": "AI can offer suggestions, but people decide which goals matter and must take responsibility for important outcomes.",
+    "sections": [
+      ["A tool, not a boss", "An AI tool may help compare options or find patterns. It cannot decide what is fair or safe for everyone on its own."],
+      ["Make room for a human", "For decisions affecting someone's life, people should be able to question a result, explain their situation, and ask for a review."]
+    ],
+    "question": "Which decisions should always leave room for a human to say no?"
+  },
+  {
+    "slug": "every-door-robot-permissions",
+    "image": "every-door-robot-permissions.png",
+    "title": "Should the robot open every door?",
+    "description": "Think about permissions, boundaries, and how to keep a helpful robot safe.",
+    "alt": "Robot and doors illustrating permissions and boundaries",
+    "intro": "Imagine a robot that can open doors. Giving it access to every room might be convenient, but would that be wise?",
+    "sections": [
+      ["Only what it needs", "A robot delivering books may need access to the library, not to every classroom or private office. Limited permissions reduce the harm from mistakes."],
+      ["Rules can change", "People should be able to grant, review, and remove access. The robot should ask for help when a door is outside its permissions."]
+    ],
+    "question": "Which doors would you let a delivery robot open, and why?"
+  },
+  {
+    "slug": "school-ai-robot-what-should-it-do",
+    "image": "school-ai-robot-what-should-it-do.png",
+    "title": "A school AI robot",
+    "description": "Imagine a school robot and decide what helpful, fair behaviour would look like.",
+    "alt": "School AI robot prompting a question about what it should do",
+    "intro": "A school robot could help with routine tasks, but students and teachers should help set its rules.",
+    "sections": [
+      ["Find a useful job", "It might help locate books or remind people about schedules. Its job should be clear so everyone knows what to expect."],
+      ["Protect the school community", "It should respect privacy, avoid unfair treatment, and ask an adult for help when it is unsure. Students deserve to understand and challenge its decisions."]
+    ],
+    "question": "What is one task you would give a school robot, and one you would not?"
+  },
+  {
+    "slug": "what-does-an-ai-expert-do",
+    "image": "what-does-an-ai-expert-do.png",
+    "title": "What does an AI expert do?",
+    "description": "Discover the teamwork, testing, and problem solving behind an AI project.",
+    "alt": "Illustration about the work of an AI expert",
+    "intro": "AI experts do more than write code. They ask questions, work with others, test ideas, and learn from mistakes.",
+    "sections": [
+      ["Understand the problem", "Before building a tool, an expert talks with the people who might use it. A clear problem helps a team choose whether AI is even needed."],
+      ["Build, test, improve", "Experts examine data, try a design, and check results for errors or unfairness. Feedback from users helps them improve or change course."]
+    ],
+    "question": "Which part of an AI expert's work sounds most interesting to you?"
+  },
+  {
+    "slug": "ai-expert-job-opportunities",
+    "image": "ai-expert-job-opportunities.png",
+    "title": "Jobs in AI",
+    "description": "See how different interests can lead to roles on an AI team.",
+    "alt": "Illustration exploring job opportunities for AI experts",
+    "intro": "AI projects need many different skills. There is room for people who enjoy science, design, writing, teaching, and more.",
+    "sections": [
+      ["Many roles, one team", "Researchers study new ideas, developers build tools, designers make them usable, and safety specialists test for risks."],
+      ["Bring your own strengths", "A doctor might help shape a health tool, while an artist might explore creative tools. Knowing a real-world subject can be as valuable as knowing the technology."]
+    ],
+    "question": "What skill would you bring to a team building a helpful AI tool?"
+  },
+  {
+    "slug": "how-could-you-become-an-ai-expert",
+    "image": "how-could-you-become-an-ai-expert.png",
+    "title": "How could you become an AI expert?",
+    "description": "Find small, practical steps for learning about AI and using it responsibly.",
+    "alt": "Illustration asking how to become an AI expert",
+    "intro": "You can start exploring AI right now by asking questions, experimenting carefully, and sharing what you learn.",
+    "sections": [
+      ["Start small", "Try explaining how a recommendation works or comparing an AI answer with a trusted source. Maths and coding can help, but curiosity comes first."],
+      ["Learn together", "Make a project with friends and ask who it helps. Practice listening, explaining your ideas, and changing them when you find a problem."]
+    ],
+    "question": "What small AI question could you investigate this week?"
+  },
+  {
+    "slug": "github-copilot-ai-workflow",
+    "image": "github-copilot-ai-workflow.png",
+    "title": "An AI-assisted coding workflow",
+    "description": "Explore how a developer can use GitHub Copilot while staying in control.",
+    "alt": "GitHub Copilot AI workflow illustration",
+    "intro": "GitHub Copilot can suggest code, but the developer still chooses the goal, reads the suggestions, and tests the result.",
+    "sections": [
+      ["Plan and ask", "Start with a clear task. A developer can describe what they need and ask for ideas, then compare the suggestion with the project requirements."],
+      ["Review and test", "Suggested code might be wrong or unsafe. Read it, run existing tests, and check that it behaves as intended before sharing it."]
+    ],
+    "question": "Why should a developer read suggested code before using it?"
+  },
+  {
+    "slug": "github-copilot-development-journey",
+    "image": "github-copilot-development-journey.png",
+    "title": "The development journey",
+    "description": "Follow an idea through drafting, reviewing, testing, and improving with Copilot.",
+    "alt": "GitHub Copilot development journey illustration",
+    "intro": "Building software is a journey of trying ideas and checking results. AI suggestions are one step, not the finish line.",
+    "sections": [
+      ["From idea to draft", "A developer breaks a goal into smaller steps, writes or requests a first version, and considers how it fits with existing code."],
+      ["Keep improving", "Tests, reviews, and feedback reveal what needs to change. A good journey includes fixing mistakes and learning from users."]
+    ],
+    "question": "What would you test first if you built a new app feature?"
+  },
+  {
+    "slug": "ai-can-help-change-the-world",
+    "image": "ai-can-help-change-the-world.png",
+    "title": "AI can help change the world",
+    "description": "Imagine useful applications while considering their limits and real-world impact.",
+    "alt": "Illustration about AI helping change the world",
+    "intro": "AI can help people explore big challenges, but making a positive difference takes care, evidence, and teamwork.",
+    "sections": [
+      ["Find useful patterns", "Researchers may use AI to study large sets of observations, such as changes in the environment. The tool can help them find questions worth investigating."],
+      ["Measure what matters", "A promising idea should be tested with the people it affects. Consider its benefits, mistakes, resource use, and who might be left out."]
+    ],
+    "question": "What problem in your community would you want a team to tackle?"
+  },
+  {
+    "slug": "your-ideas-brighter-future",
+    "image": "your-ideas-brighter-future.png",
+    "title": "Your ideas, a brighter future",
+    "description": "Finish the journey by imagining a thoughtful AI idea of your own.",
+    "alt": "Illustration inviting your ideas for a brighter future",
+    "intro": "The next chapter of AI belongs to people who are curious, creative, and willing to care about others.",
+    "sections": [
+      ["Imagine a better tool", "Begin with a problem you understand. Ask who needs help, then think about whether technology could make a useful difference."],
+      ["Share and listen", "Tell someone your idea and invite questions. Their perspective might help you make it safer, fairer, and more useful."]
+    ],
+    "question": "What idea would you like to explore next?"
+  }
+]

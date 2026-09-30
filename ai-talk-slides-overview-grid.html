@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Preview the big questions we will explore, from how AI works to who makes the decisions.">
+  <title>Our AI journey | SciTech</title>
+  <script>
+    try {
+      const saved = localStorage.getItem("scitech-theme");
+      document.documentElement.dataset.theme = saved === "light" || saved === "dark"
+        ? saved : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    } catch {
+      document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="SciTech home">✳ SciTech</a>
+      <nav aria-label="Main navigation"><a href="index.html#chapters">All chapters</a></nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">◐</span> <span class="theme-label">Switch to dark mode</span>
+      </button>
+    </div>
+  </header>
+  <main id="main">
+    <article>
+      <figure class="chapter-hero"><img src="docs/assets/ai-talk-slides-overview-grid.png" alt="Overview grid of topics in an AI talk" width="1672" height="941" loading="eager" fetchpriority="high"></figure>
+      <div class="chapter-content">
+        <p class="eyebrow">Chapter 02 / 17</p>
+        <h1>Our AI journey</h1>
+        <p class="lead">This is our map for exploring AI: what it is, where it appears, what it can get wrong, and what people can do with it.</p>
+        <section><h2>Start with curiosity</h2><p>You do not need to know how to program to ask good questions about AI. Notice what a tool does and what information it might need.</p></section>
+        <section><h2>Keep people in the picture</h2><p>As we travel through the chapters, look for the people who build, use, and are affected by each system.</p></section>
+        <aside class="detail-note"><h2>Think about it</h2><p>Which topic on this journey are you most curious about?</p></aside>
+      </div>
+    </article>
+    <nav class="chapter-nav container" aria-label="Chapter navigation">
+      <a href="hi-im-michelle-meet-the-ai-expert.html"><span>Previous</span><strong>Meet Michelle, the AI expert</strong></a>
+      <a href="what-is-ai.html"><span>Next</span><strong>What is AI?</strong></a>
+    </nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>✳ SciTech</span><span>Curiosity makes a difference.</span><a href="#main">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>

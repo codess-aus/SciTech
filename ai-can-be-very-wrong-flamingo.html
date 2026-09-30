@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Use a flamingo example to explore why confident AI answers still need checking.">
+  <title>AI can be very wrong | SciTech</title>
+  <script>
+    try {
+      const saved = localStorage.getItem("scitech-theme");
+      document.documentElement.dataset.theme = saved === "light" || saved === "dark"
+        ? saved : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    } catch {
+      document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="SciTech home">✳ SciTech</a>
+      <nav aria-label="Main navigation"><a href="index.html#chapters">All chapters</a></nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">◐</span> <span class="theme-label">Switch to dark mode</span>
+      </button>
+    </div>
+  </header>
+  <main id="main">
+    <article>
+      <figure class="chapter-hero"><img src="docs/assets/ai-can-be-very-wrong-flamingo.png" alt="Flamingo illustration about AI making mistakes" width="1672" height="941" loading="eager" fetchpriority="high"></figure>
+      <div class="chapter-content">
+        <p class="eyebrow">Chapter 07 / 17</p>
+        <h1>AI can be very wrong</h1>
+        <p class="lead">An AI answer can sound convincing and still be mistaken. A flamingo is a useful reminder to stop and check the details.</p>
+        <section><h2>Confident is not correct</h2><p>A tool might misidentify an animal or invent a fact about it. Its words may be fluent even when its evidence is missing.</p></section>
+        <section><h2>Check before sharing</h2><p>Compare important claims with reliable sources and ask a person who knows the subject. If an answer seems surprising, that is a good reason to investigate.</p></section>
+        <aside class="detail-note"><h2>Think about it</h2><p>How would you check a surprising claim about flamingos?</p></aside>
+      </div>
+    </article>
+    <nav class="chapter-nav container" aria-label="Chapter navigation">
+      <a href="how-does-ai-actually-work.html"><span>Previous</span><strong>How does AI actually work?</strong></a>
+      <a href="who-is-in-charge-humans-decide.html"><span>Next</span><strong>Who is in charge?</strong></a>
+    </nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>✳ SciTech</span><span>Curiosity makes a difference.</span><a href="#main">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
