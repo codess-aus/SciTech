@@ -1,0 +1,10 @@
+{
+  "name": "scitech",
+  "version": "1.0.0",
+  "description": "A visual field guide to science and nature",
+  "scripts": {
+    "test": "node --test",
+    "serve": "python3 -m http.server 8000"
+  },
+  "private": true
+}
