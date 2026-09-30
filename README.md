@@ -8,4 +8,15 @@ Run `npm run serve` and visit <http://localhost:8000/> to preview the site local
 
 ## Publish on GitHub Pages
 
-In the repository's **Settings → Pages**, choose **Deploy from a branch**, select the publishing branch and **/(root)** folder, then save. GitHub Pages will serve `index.html` and the linked chapter pages directly. The site uses relative URLs so it also works under a project URL such as `/SciTech/`.
+The workflow in `.github/workflows/pages.yml` runs `npm test` and deploys the static site from `main`. It publishes only the HTML pages, stylesheet, theme script, and illustrations in `images/`; no build step is needed.
+
+Expected site URL: <https://codess-aus.github.io/SciTech/>.
+
+To activate deployment:
+
+1. Merge the workflow into `main`.
+2. In the repository, open **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**.
+3. Pushes to `main` start deployment. To run it manually, open **Actions → Deploy to GitHub Pages → Run workflow** and select `main`.
+4. Check the workflow run's `test` and `deploy` jobs for success. The deployed URL is also shown on the `github-pages` environment.
+
+The site uses relative links, so it works under the project URL `/SciTech/`.
