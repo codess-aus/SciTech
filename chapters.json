@@ -37,6 +37,19 @@
         "Think of one helpful tool, with or without AI.",
         "Name one way you would check that it works well."
       ]
+    },
+    "links": {
+      "title": "Connect with Michelle",
+      "items": [
+        {
+          "text": "Read Michelle's blog",
+          "href": "https://www.scaling-guacamole.com/"
+        },
+        {
+          "text": "Find Michelle's connections",
+          "href": "https://www.scaling-guacamole.com/about.html"
+        }
+      ]
     }
   },
   {
