@@ -61,6 +61,18 @@ test("each chapter begins with its own eager hero and has ordered navigation", (
   });
 });
 
+test("Michelle's chapter has secure blog and connections links after the activity", () => {
+  const markup = html("hi-im-michelle-meet-the-ai-expert.html");
+  const linksStart = markup.indexOf("<!-- Links to Michelle's blog and connections page. -->");
+  const activityEnd = markup.indexOf("</section>", markup.indexOf('<section class="try-it-card">'));
+  const thinkAboutIt = markup.indexOf('<aside class="detail-note">');
+
+  assert.ok(linksStart > activityEnd && linksStart < thinkAboutIt);
+  assert.match(markup, /<section class="example-card">\s*<h2>Connect with Michelle<\/h2>\s*<ul>/);
+  assert.match(markup, /<a href="https:\/\/www\.scaling-guacamole\.com\/" target="_blank" rel="noopener noreferrer">Read Michelle&#x27;s blog<\/a>/);
+  assert.match(markup, /<a href="https:\/\/www\.scaling-guacamole\.com\/about\.html" target="_blank" rel="noopener noreferrer">Find Michelle&#x27;s connections<\/a>/);
+});
+
 test("all pages contain landmarks, working local links, and a theme button", () => {
   for (const page of ["index.html", ...chapters.map(({ slug }) => `${slug}.html`)]) {
     const markup = html(page);
@@ -76,6 +88,7 @@ test("all pages contain landmarks, working local links, and a theme button", () 
       assert.ok(existsSync(join(root, src)), `${page}: missing ${src}`);
     }
     for (const [, href] of markup.matchAll(/href="([^"]+)"/g)) {
+      if (/^https?:\/\//.test(href)) continue;
       const [path, fragment] = href.split("#");
       const targetPath = join(root, path || page);
       assert.ok(existsSync(targetPath), `${page}: missing ${href}`);

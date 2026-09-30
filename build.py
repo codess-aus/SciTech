@@ -152,6 +152,23 @@ def try_it_section(try_it):
       </section>"""
 
 
+def links_section(links):
+  # Render optional external links as a compact enrichment card.
+  if not links:
+      return ""
+  items = "\n".join(
+      f'          <li><a href="{text(item["href"])}" target="_blank" rel="noopener noreferrer">{text(item["text"])}</a></li>'
+      for item in links.get("items", [])
+  )
+  return f"""        <!-- Links to Michelle's blog and connections page. -->
+        <section class="example-card">
+        <h2>{text(links.get('title', 'Links'))}</h2>
+        <ul>
+{items}
+        </ul>
+      </section>"""
+
+
 def chapter_page(chapters, index):
     chapter = chapters[index]
     sections = "\n".join(
@@ -164,6 +181,7 @@ def chapter_page(chapters, index):
         example_section(chapter.get("example")),
         fun_fact_aside(chapter.get("fun_fact")),
         try_it_section(chapter.get("try_it")),
+        links_section(chapter.get("links")),
     )))
     previous = chapters[index - 1] if index else None
     following = chapters[index + 1] if index + 1 < len(chapters) else None
