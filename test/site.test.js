@@ -41,6 +41,19 @@ test("chapters have matching hero images and ordered previous/next links", () =>
   });
 });
 
+test("Pages deployment waits for tests and publishes only the site files", () => {
+  const workflow = readFileSync(join(root, ".github/workflows/pages.yml"), "utf8");
+  assert.match(workflow, /push:\s*\n\s+branches: \[main\]/);
+  assert.match(workflow, /workflow_dispatch:/);
+  assert.match(workflow, /deploy:\s*\n\s+needs: test/);
+  assert.match(workflow, /if: github\.ref == 'refs\/heads\/main'/);
+  assert.match(workflow, /permissions:\s*\n\s+contents: read\s*\n\s+pages: write\s*\n\s+id-token: write/);
+  assert.match(workflow, /cp index\.html stars\.html ocean\.html forest\.html styles\.css theme\.js "\$site\/"/);
+  assert.match(workflow, /cp images\/\*\.svg "\$site\/images\/"/);
+  assert.match(workflow, /touch "\$site\/\.nojekyll"/);
+  assert.doesNotMatch(workflow, /cp .*\b(?:test|docs|package\.json|README\.md|LICENSE)\b/);
+});
+
 test("theme follows system preference, toggles, and persists across pages", () => {
   const script = readFileSync(join(root, "theme.js"), "utf8");
   const saved = new Map();
