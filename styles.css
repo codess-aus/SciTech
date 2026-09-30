@@ -81,6 +81,23 @@ h1, h2 { font-family: Georgia, serif; }
 .chapter-content section { margin-top: 2.5rem; }
 .chapter-content h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin-bottom: .7rem; }
 .chapter-content section p { color: var(--muted); }
+/* Enrichment cards use theme surfaces and borders in both color modes. */
+.chapter-content .story-card, .chapter-content .example-card, .chapter-content .try-it-card {
+  padding: clamp(1rem, 4vw, 1.5rem);
+  border: 1px solid var(--line);
+  border-radius: .8rem;
+  background: var(--surface);
+}
+.chapter-content .story-card h2, .chapter-content .example-card h2, .chapter-content .try-it-card h2 {
+  color: var(--accent);
+}
+.chapter-content .story-card p:last-child, .chapter-content .example-card p:last-child { margin-bottom: 0; }
+.fun-fact { margin-top: 2.5rem; padding: 1.25rem 1.5rem; border-left: 4px solid var(--accent); background: var(--note); }
+.fun-fact h2 { font-size: 1.4rem; }
+.fun-fact p { margin: 0; color: var(--muted); }
+.try-it-card ol { margin: 0; padding-left: 1.5rem; color: var(--muted); }
+.try-it-card li { padding-left: .35rem; }
+.try-it-card li + li { margin-top: .5rem; }
 .detail-note { margin-top: 3rem; padding: 1.5rem; border-left: 4px solid var(--accent); background: var(--note); }
 .detail-note h2 { font-size: 1.4rem; }
 .detail-note p { margin: 0; }

@@ -7,10 +7,37 @@
     "alt": "Introduction to Michelle, an AI expert",
     "intro": "Hi, I'm Michelle! AI experts are people who ask how technology can help others, and how to use it responsibly.",
     "sections": [
-      ["A human behind the technology", "AI does not invent its own goals. People like Michelle work with teams to choose useful problems, study data, and check whether a system actually helps."],
-      ["Questions worth asking", "Who will use this tool? What could go wrong? Listening to the people affected is just as important as learning to code."]
+      [
+        "A human behind the technology",
+        "AI does not invent its own goals. People like Michelle work with teams to choose useful problems, study data, and check whether a system actually helps."
+      ],
+      [
+        "Questions worth asking",
+        "Who will use this tool? What could go wrong? Listening to the people affected is just as important as learning to code."
+      ]
     ],
-    "question": "If you could ask an AI expert one question, what would it be?"
+    "question": "If you could ask an AI expert one question, what would it be?",
+    "story": {
+      "title": "Maya meets an AI expert",
+      "paragraphs": [
+        "Maya visited a school fair where Michelle showed a tool that sorted leaf photos. Maya asked if the computer knew what a tree was. Michelle smiled: it had learned patterns from labelled pictures, but it could still mix up two similar leaves.",
+        "Maya suggested testing it with leaves from the school garden. The team tried, checked every guess, and fixed confusing labels. Maya learned that AI experts do more than build tools. They ask useful questions, listen to people, and check whether the tool really helps."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A school team planning a reading helper might ask students and teachers what is difficult before choosing any technology. Their answers help the team solve a real problem."
+    },
+    "fun_fact": "Some AI projects need people with very different skills, including science, design, writing, and knowledge of the people who will use the tool.",
+    "try_it": {
+      "title": "Ask like an expert",
+      "steps": [
+        "Pick a small problem at school or home.",
+        "Ask two people what makes it tricky for them.",
+        "Think of one helpful tool, with or without AI.",
+        "Name one way you would check that it works well."
+      ]
+    }
   },
   {
     "slug": "ai-talk-slides-overview-grid",
@@ -20,10 +47,37 @@
     "alt": "Overview grid of topics in an AI talk",
     "intro": "This is our map for exploring AI: what it is, where it appears, what it can get wrong, and what people can do with it.",
     "sections": [
-      ["Start with curiosity", "You do not need to know how to program to ask good questions about AI. Notice what a tool does and what information it might need."],
-      ["Keep people in the picture", "As we travel through the chapters, look for the people who build, use, and are affected by each system."]
+      [
+        "Start with curiosity",
+        "You do not need to know how to program to ask good questions about AI. Notice what a tool does and what information it might need."
+      ],
+      [
+        "Keep people in the picture",
+        "As we travel through the chapters, look for the people who build, use, and are affected by each system."
+      ]
     ],
-    "question": "Which topic on this journey are you most curious about?"
+    "question": "Which topic on this journey are you most curious about?",
+    "story": {
+      "title": "Sam makes a map",
+      "paragraphs": [
+        "Sam was getting ready for an AI club meeting and worried that the topic felt enormous. He drew a map with stops for patterns, everyday tools, mistakes, and human choices. His friend Jo added a snack stop. Naturally, it became the most popular stop.",
+        "As they explored each idea, Sam added questions beside the stops: What does it learn? Who checks it? Who might it affect? By the end, the map did not contain every answer, but it showed where to look next. Sam learned that curiosity is a good guide."
+      ]
+    },
+    "example": {
+      "title": "A familiar example",
+      "body": "A map app breaks a journey into smaller steps, like finding a bus stop, choosing a route, and checking for delays. Learning about AI can feel easier when you take one question at a time."
+    },
+    "fun_fact": "A flowchart uses shapes and arrows to show steps or choices in a process, much like a map for an idea.",
+    "try_it": {
+      "title": "Make your own AI map",
+      "steps": [
+        "Write AI in the middle of a page.",
+        "Add three questions you have about it.",
+        "Draw a path to one question you can answer today.",
+        "Ask a friend to add a new stop."
+      ]
+    }
   },
   {
     "slug": "what-is-ai",
@@ -33,10 +87,37 @@
     "alt": "Illustration introducing the question what is AI",
     "intro": "Artificial intelligence is a name for computer systems that can perform tasks we associate with human thinking, such as recognising patterns or generating text.",
     "sections": [
-      ["Patterns, not magic", "An AI system can learn from examples and use those patterns to predict an answer to a new question. It does not understand the world in exactly the way a person does."],
-      ["Many kinds of tasks", "Some systems sort photos, some recommend songs, and some help write or draw. The task and the training data shape what each system can do."]
+      [
+        "Patterns, not magic",
+        "An AI system can learn from examples and use those patterns to predict an answer to a new question. It does not understand the world in exactly the way a person does."
+      ],
+      [
+        "Many kinds of tasks",
+        "Some systems sort photos, some recommend songs, and some help write or draw. The task and the training data shape what each system can do."
+      ]
     ],
-    "question": "What task would you want a computer to help you with?"
+    "question": "What task would you want a computer to help you with?",
+    "story": {
+      "title": "Nia spots a pattern",
+      "paragraphs": [
+        "Nia noticed that her music app often suggested upbeat songs after she played a few. She wondered if it could read her mind. Her brother said no: the app was using patterns in listening choices to make a guess about what might come next.",
+        "Nia tried a different playlist and got some odd suggestions, including a song for a marching band. She learned that AI can spot patterns and make useful guesses, but it does not think or understand exactly like a person. People still choose what to play."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A photo app can group pictures that look alike, such as photos of the same pet. It is matching visual patterns, not knowing your pet the way you do."
+    },
+    "fun_fact": "Some AI systems can recognize spoken words and turn them into text, a feature often used to create captions.",
+    "try_it": {
+      "title": "Be the pattern finder",
+      "steps": [
+        "Write down six things you did this morning.",
+        "Circle any actions that happened more than once.",
+        "Guess what one action you might do tomorrow.",
+        "Ask a friend what clues helped you make the guess."
+      ]
+    }
   },
   {
     "slug": "different-types-of-ai",
@@ -46,10 +127,37 @@
     "alt": "Illustration comparing different types of AI",
     "intro": "Not every AI system does the same job. Some classify what they see, while others suggest what might come next.",
     "sections": [
-      ["Recognise and predict", "A classifier might identify an animal in a photo. A prediction system might estimate tomorrow's demand for buses using past journeys."],
-      ["Create and suggest", "Generative AI can produce new text, pictures, or code based on learned patterns. Recommendation tools suggest items you might enjoy, but you can still choose for yourself."]
+      [
+        "Recognise and predict",
+        "A classifier might identify an animal in a photo. A prediction system might estimate tomorrow's demand for buses using past journeys."
+      ],
+      [
+        "Create and suggest",
+        "Generative AI can produce new text, pictures, or code based on learned patterns. Recommendation tools suggest items you might enjoy, but you can still choose for yourself."
+      ]
     ],
-    "question": "Is a music recommendation doing the same job as an image generator?"
+    "question": "Is a music recommendation doing the same job as an image generator?",
+    "story": {
+      "title": "Leo picks the right tool",
+      "paragraphs": [
+        "Leo was making a class poster about pets. First, he used a photo app to sort pictures into cats and dogs. Then he tried a drawing tool to invent a space hamster. One tool labelled an example, while the other made something new.",
+        "His friend asked whether both tools were doing the same job. Leo explained that AI can classify, recommend, predict, or generate, depending on how it is built. He also checked the labels and chose the final poster himself. Different jobs need different tools and human choices."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A sports app might classify a clip as showing a goal, while a generative tool could make a new background image for a team poster. Both use AI in different ways."
+    },
+    "fun_fact": "Many text-generating AI systems create a reply one piece at a time, choosing likely next words based on patterns learned during training.",
+    "try_it": {
+      "title": "Sort the AI jobs",
+      "steps": [
+        "Write classify, recommend, predict, and create on four cards.",
+        "Think of a music app suggesting a song.",
+        "Choose which card best fits and say why.",
+        "Repeat with a photo label and a made-up story."
+      ]
+    }
   },
   {
     "slug": "where-do-we-see-ai-today",
@@ -59,10 +167,37 @@
     "alt": "Illustration about where people encounter AI today",
     "intro": "AI can appear in places you already know, from captions on videos to suggestions in a search box.",
     "sections": [
-      ["Everyday helpers", "Speech-to-text can turn spoken words into captions. Navigation apps can use predictions to suggest a route when traffic changes."],
-      ["Look more closely", "Not every clever feature is AI, and an AI feature is not always the best option. Ask what information it uses and whether you can correct it."]
+      [
+        "Everyday helpers",
+        "Speech-to-text can turn spoken words into captions. Navigation apps can use predictions to suggest a route when traffic changes."
+      ],
+      [
+        "Look more closely",
+        "Not every clever feature is AI, and an AI feature is not always the best option. Ask what information it uses and whether you can correct it."
+      ]
     ],
-    "question": "Where have you noticed a computer making a suggestion today?"
+    "question": "Where have you noticed a computer making a suggestion today?",
+    "story": {
+      "title": "Maya follows the clues",
+      "paragraphs": [
+        "Maya watched a science video with automatic captions. One line said tiny ants when the speaker had said shiny plants. Maya laughed, then checked the audio and corrected the notes for her project.",
+        "Later, a map suggested a different route because a road was busy. Maya noticed that both tools made helpful guesses, but neither was perfect. She learned to look for AI in familiar places and to check it when details matter. Captions are useful, but Maya learned to listen too."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "When a video creates captions from speech, speech recognition works out which words may have been spoken. Names, accents, and noisy rooms can make those captions harder to get right."
+    },
+    "fun_fact": "Speech recognition can turn spoken words into captions or text, but a person may need to correct the result.",
+    "try_it": {
+      "title": "Spot a suggestion",
+      "steps": [
+        "Notice one suggestion from an app, game, or map.",
+        "Guess what information it might use.",
+        "Ask what could make the suggestion wrong.",
+        "Decide whether you would check it before acting."
+      ]
+    }
   },
   {
     "slug": "how-does-ai-actually-work",
@@ -72,10 +207,37 @@
     "alt": "Illustration asking how AI actually works",
     "intro": "Many AI systems learn patterns from examples during training, then use what they learned to make predictions about new input.",
     "sections": [
-      ["Learning from examples", "Imagine showing a system many labelled pictures of cats and dogs. It adjusts its internal settings to get better at guessing which label fits each picture."],
-      ["Testing the result", "A new picture tests whether the learned pattern works beyond the training examples. People need to check performance on different examples, including ones that are difficult or unusual."]
+      [
+        "Learning from examples",
+        "Imagine showing a system many labelled pictures of cats and dogs. It adjusts its internal settings to get better at guessing which label fits each picture."
+      ],
+      [
+        "Testing the result",
+        "A new picture tests whether the learned pattern works beyond the training examples. People need to check performance on different examples, including ones that are difficult or unusual."
+      ]
     ],
-    "question": "What might happen if the training pictures showed only one kind of dog?"
+    "question": "What might happen if the training pictures showed only one kind of dog?",
+    "story": {
+      "title": "Sam trains a card sorter",
+      "paragraphs": [
+        "Sam made a pretend AI with picture cards of fruit. He labelled apples and oranges, then asked his cousin to hide a few cards for a test. At first, Sam's pretend system used colour alone, so it mistook a red apple for an orange. Oops.",
+        "They added more clues, such as shape, and tested new cards again. Sam learned that examples help a system find patterns, while fresh tests show whether those patterns work beyond the examples it has already seen."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A team training an animal-photo tool can label example pictures, teach the system from them, then test it on different pictures. The test helps reveal mistakes the examples did not show."
+    },
+    "fun_fact": "In machine learning, teams often keep some examples separate from training so they can test how well a system handles new data.",
+    "try_it": {
+      "title": "Test your own sorter",
+      "steps": [
+        "Draw or find pictures of several kinds of leaves.",
+        "Sort a few by one clue, such as shape.",
+        "Ask a friend to add pictures you have not seen.",
+        "Check where your sorting rule works or needs help."
+      ]
+    }
   },
   {
     "slug": "ai-can-be-very-wrong-flamingo",
@@ -85,10 +247,37 @@
     "alt": "Flamingo illustration about AI making mistakes",
     "intro": "An AI answer can sound convincing and still be mistaken. A flamingo is a useful reminder to stop and check the details.",
     "sections": [
-      ["Confident is not correct", "A tool might misidentify an animal or invent a fact about it. Its words may be fluent even when its evidence is missing."],
-      ["Check before sharing", "Compare important claims with reliable sources and ask a person who knows the subject. If an answer seems surprising, that is a good reason to investigate."]
+      [
+        "Confident is not correct",
+        "A tool might misidentify an animal or invent a fact about it. Its words may be fluent even when its evidence is missing."
+      ],
+      [
+        "Check before sharing",
+        "Compare important claims with reliable sources and ask a person who knows the subject. If an answer seems surprising, that is a good reason to investigate."
+      ]
     ],
-    "question": "How would you check a surprising claim about flamingos?"
+    "question": "How would you check a surprising claim about flamingos?",
+    "story": {
+      "title": "Priya checks a flamingo fact",
+      "paragraphs": [
+        "Priya's class quiz tool announced that flamingos were born bright pink. It sounded certain, but Priya remembered seeing grey chicks in a nature book. She checked a library book and a wildlife website with her teacher.",
+        "Both explained that young flamingos are greyish and their colour changes as they grow, partly because of pigments in their food. Priya corrected the quiz note. She learned that a confident answer is still only a claim until you check good evidence. Checking helped Priya make the class answer stronger."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "If an AI helper gives you a surprising fact for homework, compare it with a book or a trusted website. Ask a teacher or librarian if the sources disagree."
+    },
+    "fun_fact": "Flamingos get their pink colour from pigments in the food they eat, including tiny shrimp and algae.",
+    "try_it": {
+      "title": "Check a claim",
+      "steps": [
+        "Choose a surprising animal fact from a book or lesson.",
+        "Find a second reliable source about it.",
+        "Compare what each source says and who created it.",
+        "Write down what you trust and what you still want to ask."
+      ]
+    }
   },
   {
     "slug": "who-is-in-charge-humans-decide",
@@ -98,10 +287,37 @@
     "alt": "Illustration about humans staying in charge of AI decisions",
     "intro": "AI can offer suggestions, but people decide which goals matter and must take responsibility for important outcomes.",
     "sections": [
-      ["A tool, not a boss", "An AI tool may help compare options or find patterns. It cannot decide what is fair or safe for everyone on its own."],
-      ["Make room for a human", "For decisions affecting someone's life, people should be able to question a result, explain their situation, and ask for a review."]
+      [
+        "A tool, not a boss",
+        "An AI tool may help compare options or find patterns. It cannot decide what is fair or safe for everyone on its own."
+      ],
+      [
+        "Make room for a human",
+        "For decisions affecting someone's life, people should be able to question a result, explain their situation, and ask for a review."
+      ]
     ],
-    "question": "Which decisions should always leave room for a human to say no?"
+    "question": "Which decisions should always leave room for a human to say no?",
+    "story": {
+      "title": "Leo makes the final call",
+      "paragraphs": [
+        "Leo's game suggested that he practise one more maths puzzle. He liked the challenge, but his dog needed a walk and the sky looked stormy. The app could suggest an activity, but it did not know everything happening in Leo's day.",
+        "Leo saved the puzzle for later and took the dog out with an umbrella. He learned that AI can offer options, while people bring context, values, and responsibility. For important choices, people need a chance to question a result and decide what to do."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A map can suggest the quickest route, but you might choose a safer path with a crossing or a route you know well. The suggestion is useful, and the decision is yours."
+    },
+    "fun_fact": "A computer follows rules and instructions made by people, but people are responsible for deciding when a tool should be used.",
+    "try_it": {
+      "title": "Keep a person in charge",
+      "steps": [
+        "Imagine an app suggesting teams for a school game.",
+        "Name one useful clue it could use.",
+        "Name one important clue it might miss.",
+        "Decide how a person could review or change the teams."
+      ]
+    }
   },
   {
     "slug": "every-door-robot-permissions",
@@ -111,10 +327,37 @@
     "alt": "Robot and doors illustrating permissions and boundaries",
     "intro": "Imagine a robot that can open doors. Giving it access to every room might be convenient, but would that be wise?",
     "sections": [
-      ["Only what it needs", "A robot delivering books may need access to the library, not to every classroom or private office. Limited permissions reduce the harm from mistakes."],
-      ["Rules can change", "People should be able to grant, review, and remove access. The robot should ask for help when a door is outside its permissions."]
+      [
+        "Only what it needs",
+        "A robot delivering books may need access to the library, not to every classroom or private office. Limited permissions reduce the harm from mistakes."
+      ],
+      [
+        "Rules can change",
+        "People should be able to grant, review, and remove access. The robot should ask for help when a door is outside its permissions."
+      ]
     ],
-    "question": "Which doors would you let a delivery robot open, and why?"
+    "question": "Which doors would you let a delivery robot open, and why?",
+    "story": {
+      "title": "Amira gives the robot a key",
+      "paragraphs": [
+        "Amira's library hired a little robot to return books to shelves. She suggested giving it a key to every room so it would never get stuck. The librarian pointed out that the art cupboard and staff office were not part of its job.",
+        "They gave the robot access to the library and added a rule: if it met a locked door, it should ask for help. Amira learned that a helpful robot should only get the permissions it needs, and a person should be able to change those permissions."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A school tablet app may need permission to use the camera for a science photo activity, but it does not need access to every file or contact. Check permissions with a trusted adult."
+    },
+    "fun_fact": "On many devices, app permissions can be reviewed and changed in settings, such as allowing or blocking camera access.",
+    "try_it": {
+      "title": "Choose robot permissions",
+      "steps": [
+        "Imagine a robot delivering books at school.",
+        "List the rooms it needs to enter for its job.",
+        "List one room it should not enter.",
+        "Make a rule for what it should do if it reaches that room."
+      ]
+    }
   },
   {
     "slug": "school-ai-robot-what-should-it-do",
@@ -124,10 +367,37 @@
     "alt": "School AI robot prompting a question about what it should do",
     "intro": "A school robot could help with routine tasks, but students and teachers should help set its rules.",
     "sections": [
-      ["Find a useful job", "It might help locate books or remind people about schedules. Its job should be clear so everyone knows what to expect."],
-      ["Protect the school community", "It should respect privacy, avoid unfair treatment, and ask an adult for help when it is unsure. Students deserve to understand and challenge its decisions."]
+      [
+        "Find a useful job",
+        "It might help locate books or remind people about schedules. Its job should be clear so everyone knows what to expect."
+      ],
+      [
+        "Protect the school community",
+        "It should respect privacy, avoid unfair treatment, and ask an adult for help when it is unsure. Students deserve to understand and challenge its decisions."
+      ]
     ],
-    "question": "What is one task you would give a school robot, and one you would not?"
+    "question": "What is one task you would give a school robot, and one you would not?",
+    "story": {
+      "title": "Jamal helps the school robot",
+      "paragraphs": [
+        "Jamal met a school robot that could answer questions about library books. When a younger student asked for a book about a private problem, the robot began to read the question aloud. Jamal quickly asked the librarian for help.",
+        "The class suggested that the robot should keep personal questions private and invite an adult to help when needed. They learned that designing a school tool means thinking about safety, privacy, and how different students might feel. The robot could help, but it could not replace a trusted person."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A school helper could remind students when the library closes, but it should not share a student's private question with everyone nearby. Helpful tools need clear privacy rules."
+    },
+    "fun_fact": "A barcode is a pattern of lines or shapes that a scanner can read to identify an item, such as a library book.",
+    "try_it": {
+      "title": "Write a school robot rule",
+      "steps": [
+        "Choose one job for a school robot.",
+        "Write one rule that keeps students safe.",
+        "Think of a moment when the robot might be unsure.",
+        "Decide which trusted adult it should ask for help."
+      ]
+    }
   },
   {
     "slug": "what-does-an-ai-expert-do",
@@ -137,10 +407,37 @@
     "alt": "Illustration about the work of an AI expert",
     "intro": "AI experts do more than write code. They ask questions, work with others, test ideas, and learn from mistakes.",
     "sections": [
-      ["Understand the problem", "Before building a tool, an expert talks with the people who might use it. A clear problem helps a team choose whether AI is even needed."],
-      ["Build, test, improve", "Experts examine data, try a design, and check results for errors or unfairness. Feedback from users helps them improve or change course."]
+      [
+        "Understand the problem",
+        "Before building a tool, an expert talks with the people who might use it. A clear problem helps a team choose whether AI is even needed."
+      ],
+      [
+        "Build, test, improve",
+        "Experts examine data, try a design, and check results for errors or unfairness. Feedback from users helps them improve or change course."
+      ]
     ],
-    "question": "Which part of an AI expert's work sounds most interesting to you?"
+    "question": "Which part of an AI expert's work sounds most interesting to you?",
+    "story": {
+      "title": "Ava's team tests an idea",
+      "paragraphs": [
+        "Ava's team wanted to make a tool that could help students find books. The coder built a search feature, the librarian checked the book details, and the students tried different questions. One search kept showing cookbooks when they asked for stories about space.",
+        "The team listened, changed the way books were described, and tested again. Ava saw that AI work is teamwork: people understand the problem, build, test, and improve. Finding a mistake was useful because it showed what to fix."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A team building video captions might include programmers, people who know about language, and viewers who use captions. Each person can notice different problems."
+    },
+    "fun_fact": "Some teams use a test plan, a list of checks that helps them see whether a tool works as expected.",
+    "try_it": {
+      "title": "Plan a helpful tool",
+      "steps": [
+        "Pick a small task, like finding a library book.",
+        "Ask who would use the tool and what they need.",
+        "Think of one way the tool could make a mistake.",
+        "Choose a test that could uncover that mistake."
+      ]
+    }
   },
   {
     "slug": "ai-expert-job-opportunities",
@@ -150,10 +447,37 @@
     "alt": "Illustration exploring job opportunities for AI experts",
     "intro": "AI projects need many different skills. There is room for people who enjoy science, design, writing, teaching, and more.",
     "sections": [
-      ["Many roles, one team", "Researchers study new ideas, developers build tools, designers make them usable, and safety specialists test for risks."],
-      ["Bring your own strengths", "A doctor might help shape a health tool, while an artist might explore creative tools. Knowing a real-world subject can be as valuable as knowing the technology."]
+      [
+        "Many roles, one team",
+        "Researchers study new ideas, developers build tools, designers make them usable, and safety specialists test for risks."
+      ],
+      [
+        "Bring your own strengths",
+        "A doctor might help shape a health tool, while an artist might explore creative tools. Knowing a real-world subject can be as valuable as knowing the technology."
+      ]
     ],
-    "question": "What skill would you bring to a team building a helpful AI tool?"
+    "question": "What skill would you bring to a team building a helpful AI tool?",
+    "story": {
+      "title": "Ravi finds his team role",
+      "paragraphs": [
+        "Ravi loved drawing maps but thought an AI team only needed coders. At a school activity, he joined a group making a route helper for a sports day. He sketched the school paths, while his friend wrote instructions and another classmate checked which routes were safe.",
+        "Their different skills helped the team notice a blocked path before the event. Ravi learned that an AI project can need artists, writers, subject experts, testers, and many more. A good team makes room for different strengths."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A team making a sports app could include coaches who know the game, designers who make screens clear, and developers who build the features."
+    },
+    "fun_fact": "People who test software try actions and examples to find problems before other people rely on the tool.",
+    "try_it": {
+      "title": "Build a pretend team",
+      "steps": [
+        "Choose a problem, such as planning a class event.",
+        "Name three different skills that could help.",
+        "Match a person or character to each skill.",
+        "Explain how the team could check its plan."
+      ]
+    }
   },
   {
     "slug": "how-could-you-become-an-ai-expert",
@@ -163,10 +487,37 @@
     "alt": "Illustration asking how to become an AI expert",
     "intro": "You can start exploring AI right now by asking questions, experimenting carefully, and sharing what you learn.",
     "sections": [
-      ["Start small", "Try explaining how a recommendation works or comparing an AI answer with a trusted source. Maths and coding can help, but curiosity comes first."],
-      ["Learn together", "Make a project with friends and ask who it helps. Practice listening, explaining your ideas, and changing them when you find a problem."]
+      [
+        "Start small",
+        "Try explaining how a recommendation works or comparing an AI answer with a trusted source. Maths and coding can help, but curiosity comes first."
+      ],
+      [
+        "Learn together",
+        "Make a project with friends and ask who it helps. Practice listening, explaining your ideas, and changing them when you find a problem."
+      ]
     ],
-    "question": "What small AI question could you investigate this week?"
+    "question": "What small AI question could you investigate this week?",
+    "story": {
+      "title": "Zara starts with a question",
+      "paragraphs": [
+        "Zara wanted to learn about AI but did not know where to begin. She started with a small question: how did her video app choose the next clip? She wrote down what she noticed and asked her older cousin what clues the app might use.",
+        "They compared guesses and talked about what the app could get wrong. Zara made a simple flowchart of the choices. She learned that becoming an expert starts with curiosity, careful questions, and learning with others. No one needs to know everything on day one."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "You can study an everyday suggestion, like a route or a video, and ask what information might shape it. That kind of careful noticing is a useful first step."
+    },
+    "fun_fact": "A flowchart can show a process with steps and choices, which is one way to plan a simple computer program.",
+    "try_it": {
+      "title": "Start your own investigation",
+      "steps": [
+        "Write one question about an AI feature you have seen.",
+        "List two things you already know about it.",
+        "Find an answer with help from a trusted source or adult.",
+        "Share what you learned and one question that remains."
+      ]
+    }
   },
   {
     "slug": "github-copilot-ai-workflow",
@@ -176,10 +527,37 @@
     "alt": "GitHub Copilot AI workflow illustration",
     "intro": "GitHub Copilot can suggest code, but the developer still chooses the goal, reads the suggestions, and tests the result.",
     "sections": [
-      ["Plan and ask", "Start with a clear task. A developer can describe what they need and ask for ideas, then compare the suggestion with the project requirements."],
-      ["Review and test", "Suggested code might be wrong or unsafe. Read it, run existing tests, and check that it behaves as intended before sharing it."]
+      [
+        "Plan and ask",
+        "Start with a clear task. A developer can describe what they need and ask for ideas, then compare the suggestion with the project requirements."
+      ],
+      [
+        "Review and test",
+        "Suggested code might be wrong or unsafe. Read it, run existing tests, and check that it behaves as intended before sharing it."
+      ]
     ],
-    "question": "Why should a developer read suggested code before using it?"
+    "question": "Why should a developer read suggested code before using it?",
+    "story": {
+      "title": "Sam checks the helper's code",
+      "paragraphs": [
+        "Sam was building a tiny quiz for coding club. He asked GitHub Copilot, an AI coding helper, for a way to shuffle the questions. The suggestion looked neat, and Sam was tempted to paste it in and declare himself a coding wizard.",
+        "Instead, he read each line, asked his mentor about one confusing part, and tried the quiz with a few questions. The shuffle repeated one question, so Sam fixed it and tested again. He learned that a helper can save time, but the coder must check the work."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A young coder might ask a coding helper to explain an unfamiliar line, then compare the explanation with the project and test what the code actually does."
+    },
+    "fun_fact": "A software test can run the same check many times, which helps a team notice when a change breaks something that used to work.",
+    "try_it": {
+      "title": "Review a tiny program",
+      "steps": [
+        "Write steps for a quiz that asks one question.",
+        "Ask a friend to follow the steps exactly.",
+        "Notice any confusing or missing instruction.",
+        "Rewrite the steps and try them again."
+      ]
+    }
   },
   {
     "slug": "github-copilot-development-journey",
@@ -189,10 +567,37 @@
     "alt": "GitHub Copilot development journey illustration",
     "intro": "Building software is a journey of trying ideas and checking results. AI suggestions are one step, not the finish line.",
     "sections": [
-      ["From idea to draft", "A developer breaks a goal into smaller steps, writes or requests a first version, and considers how it fits with existing code."],
-      ["Keep improving", "Tests, reviews, and feedback reveal what needs to change. A good journey includes fixing mistakes and learning from users."]
+      [
+        "From idea to draft",
+        "A developer breaks a goal into smaller steps, writes or requests a first version, and considers how it fits with existing code."
+      ],
+      [
+        "Keep improving",
+        "Tests, reviews, and feedback reveal what needs to change. A good journey includes fixing mistakes and learning from users."
+      ]
     ],
-    "question": "What would you test first if you built a new app feature?"
+    "question": "What would you test first if you built a new app feature?",
+    "story": {
+      "title": "Priya improves her app",
+      "paragraphs": [
+        "Priya was making a simple timer for her running club. She asked GitHub Copilot, a coding helper, to suggest a button that starts the timer. The first version looked right, but the timer kept running after she pressed stop. Sneaky button!",
+        "Priya read the suggestion, tried it with her coach, and found the missing stop action. She changed the code and tested both buttons. Priya learned that building software takes drafts, checks, and improvements. An AI suggestion is one step, not the finish line."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "When a game developer adds a new score button, they can test whether it adds points once, not twice, and still works after other changes."
+    },
+    "fun_fact": "In software testing, a test checks whether a program behaves as expected for a chosen input.",
+    "try_it": {
+      "title": "Test a simple timer plan",
+      "steps": [
+        "Write down what a start button should do.",
+        "Write what a stop button should do.",
+        "Ask a friend to act out both buttons.",
+        "Add a tricky case, such as pressing stop before start."
+      ]
+    }
   },
   {
     "slug": "ai-can-help-change-the-world",
@@ -202,10 +607,37 @@
     "alt": "Illustration about AI helping change the world",
     "intro": "AI can help people explore big challenges, but making a positive difference takes care, evidence, and teamwork.",
     "sections": [
-      ["Find useful patterns", "Researchers may use AI to study large sets of observations, such as changes in the environment. The tool can help them find questions worth investigating."],
-      ["Measure what matters", "A promising idea should be tested with the people it affects. Consider its benefits, mistakes, resource use, and who might be left out."]
+      [
+        "Find useful patterns",
+        "Researchers may use AI to study large sets of observations, such as changes in the environment. The tool can help them find questions worth investigating."
+      ],
+      [
+        "Measure what matters",
+        "A promising idea should be tested with the people it affects. Consider its benefits, mistakes, resource use, and who might be left out."
+      ]
     ],
-    "question": "What problem in your community would you want a team to tackle?"
+    "question": "What problem in your community would you want a team to tackle?",
+    "story": {
+      "title": "Noor looks for litter clues",
+      "paragraphs": [
+        "Noor's class wanted to clean up a nearby park. They took photos of the path and wondered if an AI tool could help spot litter. Their teacher explained that a tool might find patterns in pictures, but shadows and leaves could confuse it.",
+        "The class checked every suggestion before making a cleanup map, then asked park helpers what would be useful. Noor learned that technology can support a real project, but people need evidence, local knowledge, and teamwork to make a positive difference."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "Scientists can use computer tools to sort large collections of environmental images, then inspect interesting results and decide what to study next."
+    },
+    "fun_fact": "Earth-observing satellites collect images and measurements that scientists use to study changes on our planet.",
+    "try_it": {
+      "title": "Plan a community project",
+      "steps": [
+        "Choose a problem you can see nearby.",
+        "Ask who is affected and what they need.",
+        "Suggest one way to collect useful information safely.",
+        "Decide how people would check the information before acting."
+      ]
+    }
   },
   {
     "slug": "your-ideas-brighter-future",
@@ -215,9 +647,36 @@
     "alt": "Illustration inviting your ideas for a brighter future",
     "intro": "The next chapter of AI belongs to people who are curious, creative, and willing to care about others.",
     "sections": [
-      ["Imagine a better tool", "Begin with a problem you understand. Ask who needs help, then think about whether technology could make a useful difference."],
-      ["Share and listen", "Tell someone your idea and invite questions. Their perspective might help you make it safer, fairer, and more useful."]
+      [
+        "Imagine a better tool",
+        "Begin with a problem you understand. Ask who needs help, then think about whether technology could make a useful difference."
+      ],
+      [
+        "Share and listen",
+        "Tell someone your idea and invite questions. Their perspective might help you make it safer, fairer, and more useful."
+      ]
     ],
-    "question": "What idea would you like to explore next?"
+    "question": "What idea would you like to explore next?",
+    "story": {
+      "title": "Eli designs a garden helper",
+      "paragraphs": [
+        "Eli's school garden kept getting too dry during sunny weeks. He imagined an AI helper that could suggest when to water. His friend pointed out that different plants need different amounts, and the garden club knew which beds had new seedlings.",
+        "Eli drew a tool that offered suggestions but let the gardeners decide. They would check the soil before watering. He learned that a thoughtful idea starts with listening, and that people should stay in charge of tools that affect their community."
+      ]
+    },
+    "example": {
+      "title": "A real-life example",
+      "body": "A music app may suggest a new song based on patterns in what you play. You can keep the suggestion, skip it, or choose something completely different."
+    },
+    "fun_fact": "A moisture sensor can measure how wet soil is and send that reading to another device.",
+    "try_it": {
+      "title": "Sketch your own helpful idea",
+      "steps": [
+        "Name one small problem you care about.",
+        "Draw a tool that could offer help.",
+        "Mark where a person should check or decide.",
+        "Show your sketch to someone and ask what you may have missed."
+      ]
+    }
   }
 ]

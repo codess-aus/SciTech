@@ -40,6 +40,17 @@ test("each chapter begins with its own eager hero and has ordered navigation", (
     assert.ok(existsSync(join(root, "docs/assets", chapter.image)));
     assert.equal((markup.match(/<section><h2>/g) || []).length, chapter.sections.length);
     assert.ok(chapter.sections.length >= 2 && chapter.sections.length <= 3);
+    assert.ok(chapter.story && chapter.story.paragraphs.length >= 2, `${page}: missing story`);
+    assert.ok(chapter.example && chapter.example.body, `${page}: missing example`);
+    assert.ok(chapter.fun_fact, `${page}: missing fun fact`);
+    assert.ok(chapter.try_it && chapter.try_it.steps.length >= 3, `${page}: missing try-it activity`);
+    assert.match(markup, /<section class="story-card">[\s\S]*?<\/section>/);
+    assert.match(markup, /<section class="example-card">[\s\S]*?<\/section>/);
+    assert.match(markup, /<aside class="fun-fact">[\s\S]*?<h2>Fun fact<\/h2>/);
+    assert.match(markup, /<section class="try-it-card">[\s\S]*?<ol>[\s\S]*?<\/ol>/);
+    assert.ok(markup.indexOf('class="story-card"') < markup.indexOf('class="example-card"'));
+    assert.ok(markup.indexOf('class="example-card"') < markup.indexOf('class="fun-fact"'));
+    assert.ok(markup.indexOf('class="fun-fact"') < markup.indexOf('class="try-it-card"'));
     assert.ok(markup.includes("<h2>Think about it</h2>"));
     const previous = index ? `${chapters[index - 1].slug}.html` : "index.html";
     const next = index < chapters.length - 1 ? `${chapters[index + 1].slug}.html` : "index.html";
