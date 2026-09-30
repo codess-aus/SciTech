@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Three illustrated chapters exploring the night sky, the ocean, and the forest.">
+  <title>SciTech — A field guide to wonder</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="theme.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="SciTech home"><span class="brand-mark" aria-hidden="true">✳</span> SciTech<span class="brand-dot">.</span></a>
+      <nav aria-label="Main navigation"><a href="#chapters">Explore chapters</a></nav>
+      <button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden><span class="theme-icon" aria-hidden="true">◐</span> <span class="theme-label">Dark mode</span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="home-hero" aria-labelledby="hero-title">
+      <img src="images/stars.svg" alt="Illustrated constellation glowing over a dark mountain horizon" width="1200" height="650">
+      <div class="home-hero-content">
+        <p class="eyebrow">An illustrated field guide · Volume 01</p>
+        <h1 id="hero-title">Look closer.<br><em>Wonder more.</em></h1>
+        <p>Three visual journeys through the patterns that connect our world, from the stars above to the life beneath our feet.</p>
+        <a class="button-link" href="#chapters">Explore the chapters <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="hero-index" aria-hidden="true">01 / 03</span>
+    </section>
+
+    <section class="intro container" aria-labelledby="intro-title">
+      <div><p class="eyebrow">A different perspective</p><h2 id="intro-title">The world has<br>stories to tell.</h2></div>
+      <p>Follow the illustrations and discover a little of the science behind each scene. Every chapter starts with an image, then takes a closer look at what it shows.</p>
+    </section>
+
+    <section class="chapters container" id="chapters" aria-labelledby="chapters-title">
+      <div class="section-heading"><div><p class="eyebrow">Start exploring</p><h2 id="chapters-title">The chapters</h2></div><span>01 — 03</span></div>
+      <div class="chapter-grid">
+        <article class="chapter-card">
+          <a href="stars.html" aria-labelledby="stars-card-title">
+            <div class="card-image"><img src="images/stars.svg" alt="A constellation above a mountain horizon" width="1200" height="650" loading="lazy"></div>
+            <div class="card-body"><span class="chapter-number">Chapter 01 / The sky</span><h3 id="stars-card-title">A map in the stars</h3><p>Why familiar shapes appear in an ever-changing night sky.</p><span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span></div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="ocean.html" aria-labelledby="ocean-card-title">
+            <div class="card-image"><img src="images/ocean.svg" alt="Sunbeams reaching through blue water toward fish" width="1200" height="650" loading="lazy"></div>
+            <div class="card-body"><span class="chapter-number">Chapter 02 / The ocean</span><h3 id="ocean-card-title">Below the surface</h3><p>Follow the sunlight as it fades into the deep blue.</p><span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span></div>
+          </a>
+        </article>
+        <article class="chapter-card">
+          <a href="forest.html" aria-labelledby="forest-card-title">
+            <div class="card-image"><img src="images/forest.svg" alt="Layers of green trees framing a sunlit forest path" width="1200" height="650" loading="lazy"></div>
+            <div class="card-body"><span class="chapter-number">Chapter 03 / The forest</span><h3 id="forest-card-title">Life between the trees</h3><p>What a sunlit woodland reveals about a living ecosystem.</p><span class="card-cta">Read chapter <span aria-hidden="true">↗</span></span></div>
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>✳ SciTech <span class="brand-dot">.</span></span><span>Curiosity looks good on you.</span><a href="#main">Back to top ↑</a></div></footer>
+</body>
+</html>
